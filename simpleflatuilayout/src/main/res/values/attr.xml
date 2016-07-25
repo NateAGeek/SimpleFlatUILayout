@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="FlatUILayout">
+    </declare-styleable>
+    <declare-styleable name="FlatUILayout_LayoutParams">
+        <attr name="x_position" format="dimension"/>
+        <attr name="y_position" format="dimension"/>
+        <attr name="align">
+            <flag name="right"    value="2"/>
+            <flag name="left"     value="4"/>
+            <flag name="top"      value="8"/>
+            <flag name="bottom"   value="16"/>
+            <flag name="center"   value="32"/>
+            <flag name="pull"     value="64"/>
+            <flag name="internal" value="1"/>
+        </attr>
+        <attr name="relation" format="reference"/>
+    </declare-styleable>
+</resources>

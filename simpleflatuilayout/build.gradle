@@ -15,7 +15,7 @@ ext {
     siteUrl = 'https://github.com/NateAGeek/SimpleFlatUILayout'
     gitUrl = 'https://github.com/NateAGeek/SimpleFlatUILayout.git'
 
-    libraryVersion = '0.1'
+    libraryVersion = '0.2.2'
 
     developerId = 'NateAGeek'
     developerName = 'NateAGeek'
@@ -46,6 +46,8 @@ android {
 
 dependencies {
     compile fileTree(dir: 'libs', include: ['*.jar'])
+    sourceCompatibility = 1.7
+    targetCompatibility = 1.7
 }
 
 apply from: 'https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle'
